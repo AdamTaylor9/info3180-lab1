@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     <title>My Website - About</title>
 </head>
 <body>
@@ -11,5 +12,9 @@
         I am pursuing a major in Computer Science and a minor in General Physics. I am interested in web development as 
         I think being able to design, develop and maintain websites is a good skill to have in the field of Computer Science.
     </p>
+    <img src="{{ url_for('static', filename='img/UWI_logo.jpeg') }}" alt="UWI LOGO">
 </body>
 </html>
+
+
+
